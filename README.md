@@ -8,7 +8,7 @@ Bons Estudos.
 
 ## Backend
 
-Esse repositório utiliza-se um webservice externo hospedado em `https://banco-dados-teste.glitch.me/`. Ao acessar este endereço, há um período de espera onde a aplicação é reiniciada até seu processo de pausa, que ocorre após 5 minutos de inatividade.
+Esse repositório utiliza-se um webservice externo hospedado em `https://backend-ifsp-thiago300144x.glitch.me/`. Ao acessar este endereço, há um período de espera onde a aplicação é reiniciada até seu processo de pausa, que ocorre após 5 minutos de inatividade.
 
 ### Rotas
 
