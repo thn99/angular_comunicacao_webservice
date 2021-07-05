@@ -2,16 +2,21 @@
     <table>
         <thead>
             <tr>
+                <td>Título</td>
                 <td>Preço</td>
                 <td>Descrição</td>
-                <td>Título</td>
             </tr>
         </thead>
         <tbody>
             <tr *ngFor="let p of listaProdutos">
-                <td>{{p.price}}</td>
-                <td>{{p.description}}</td>
-                <td>{{p.title}}</td>
+                <td>{{p.titulo}}</td>
+                <td>{{p.preco}}</td>
+                <td>{{p.descricao}}</td>
+                <td>
+                    <button (click)="deleteProduct(p)">
+                        Remover
+                    </button>
+                </td>
             </tr>
         </tbody>
     </table>

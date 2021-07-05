@@ -19,6 +19,12 @@ export class ListarComponent implements OnInit {
     });
   }
 
+  deleteProduct(product) : void {
+    this.web.deleteProduct(product).subscribe(res => {
+      this.carregarProdutos();
+    });
+  }
+
   ngOnInit(): void {
     this.carregarProdutos();
   }
