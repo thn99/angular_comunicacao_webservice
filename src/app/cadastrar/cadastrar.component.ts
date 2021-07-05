@@ -19,6 +19,7 @@ export class CadastrarComponent implements OnInit {
       } else {
         alert("O cadastro não foi realizado!");
       }
+      this.web.getProdutos();
     });
   }
 
